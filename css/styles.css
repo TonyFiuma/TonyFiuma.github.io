@@ -10,50 +10,50 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
- :root {
-  --bs-blue: #007bff; /* Blu vivace */
-  --bs-indigo: #6610f2; /* Indaco intenso */
-  --bs-purple: #6f42c1; /* Viola ricco */
-  --bs-pink: #e83e8c; /* Rosa vivace */
-  --bs-red: #dc3545; /* Rosso forte */
-  --bs-orange: #fd7e14; /* Arancione brillante */
-  --bs-yellow: #ffc107; /* Giallo sole */
-  --bs-green: #28a745; /* Verde smeraldo */
-  --bs-teal: #20c997; /* Verde acqua */
-  --bs-cyan: #17a2b8; /* Ciano chiaro */
-  --bs-black: #343a40; /* Nero scuro */
-  --bs-white: #ffffff; /* Bianco puro */
-  --bs-gray: #6c757d; /* Grigio medio */
-  --bs-gray-dark: #343a40; /* Grigio scuro */
-  --bs-gray-100: #f8f9fa; /* Grigio chiaro */
-  --bs-gray-200: #e9ecef; /* Grigio pallido */
-  --bs-gray-300: #dee2e6; /* Grigio tenue */
-  --bs-gray-400: #ced4da; /* Grigio argento */
-  --bs-gray-500: #adb5bd; /* Grigio chiaro medio */
-  --bs-gray-600: #6c757d; /* Grigio medio */
-  --bs-gray-700: #495057; /* Grigio scuro medio */
-  --bs-gray-800: #343a40; /* Grigio molto scuro */
-  --bs-gray-900: #212529; /* Grigio antracite */
-  --bs-primary: #009b77; /* Verde persiano vivace */
-  --bs-secondary: #6c757d; /* Grigio medio */
-  --bs-success: #28a745; /* Verde smeraldo */
-  --bs-info: #17a2b8; /* Ciano chiaro */
-  --bs-warning: #ffc107; /* Giallo sole */
-  --bs-danger: #dc3545; /* Rosso forte */
-  --bs-light: #f8f9fa; /* Grigio chiaro */
-  --bs-dark: #212529; /* Grigio antracite */
-  --bs-primary-rgb: 0, 155, 119; /* RGB verde persiano vivace */
-  --bs-secondary-rgb: 108, 117, 125; /* RGB grigio medio */
-  --bs-success-rgb: 40, 167, 69; /* RGB verde smeraldo */
-  --bs-info-rgb: 23, 162, 184; /* RGB ciano chiaro */
-  --bs-warning-rgb: 255, 193, 7; /* RGB giallo sole */
-  --bs-danger-rgb: 220, 53, 69; /* RGB rosso forte */
-  --bs-light-rgb: 248, 249, 250; /* RGB grigio chiaro */
-  --bs-dark-rgb: 33, 37, 41; /* RGB grigio antracite */
-  --bs-white-rgb: 255, 255, 255; /* RGB bianco puro */
-  --bs-black-rgb: 0, 0, 0; /* RGB nero */
-  --bs-body-color-rgb: 33, 37, 41; /* RGB corpo grigio antracite */
-  --bs-body-bg-rgb: 240, 240, 240; /* RGB grigio chiaro */
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #bd5d38;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #bd5d38;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 189, 93, 56;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -61,11 +61,11 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529; /* Corpo grigio antracite */
-  --bs-body-bg: #f0f0f0; /* Grigio chiaro */
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
-  --bs-border-color: #dee2e6; /* Grigio tenue */
+  --bs-border-color: #dee2e6;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
@@ -73,14 +73,11 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #009b77; /* Verde persiano vivace */
-  --bs-link-hover-color: #00876b; /* Verde persiano più scuro */
-  --bs-code-color: #e83e8c; /* Rosa vivace */
-  --bs-highlight-bg: #fff3cd; /* Giallo tenue */
+  --bs-link-color: #bd5d38;
+  --bs-link-hover-color: #974a2d;
+  --bs-code-color: #d63384;
+  --bs-highlight-bg: #fff3cd;
 }
-
-
-
 
 *,
 *::before,
@@ -3730,23 +3727,6 @@ textarea.form-control-lg {
   display: block;
 }
 
-.navbar-text-overlay {
-  position: absolute;
-  top: 0; /* Regola questo valore per posizionare il testo correttamente */
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  text-align: center;
-  z-index: 1050; /* Assicurati che il testo sia sopra la navbar */
-  color: #ffffff; /* Colore del testo */
-}
-
-.navbar-text-overlay span {
-  font-size: 36px; /* Modifica in base alla dimensione desiderata */
-  font-weight: bold; /* Rende il testo in grassetto */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Aggiunge un'ombra per la leggibilità */
-  padding: 0.5rem 0; /* Padding sopra e sotto per la spaziatura */
-}
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
@@ -10990,4 +10970,3 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-
