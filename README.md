@@ -1,5 +1,7 @@
 # Welcome to My Professional Website
 
+[Visit My Page](https://tonyfiuma.github.io/)
+
 ## Introduction
 
 Welcome to my professional website! This site is designed to provide you with information about me, my skills, experiences, and how I can contribute to your projects and goals. I'm excited to share my professional journey and showcase my work.
@@ -31,9 +33,3 @@ I am always open to feedback and suggestions. If you have any questions or comme
 This site is copyright protected and all content is the property of Antonio Fiumanò. For details on the license and usage of content, please refer to the [License](link to the License section).
 
 Thank you for visiting and enjoy exploring my site!
-
----
-
-Antonio Fiumanò
-Data Engineer 
-[www.linkedin.com/in/antonio-fiumano-68aab419a](https://www.linkedin.com/in/antonio-fiumano-68aab419a)
