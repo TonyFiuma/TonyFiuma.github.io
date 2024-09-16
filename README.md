@@ -28,8 +28,4 @@ Navigating the site is straightforward. Use the navigation menu at the top to ac
 
 I am always open to feedback and suggestions. If you have any questions or comments, please feel free to contact me through the Contact section of the site. Your feedback is valuable and helps me improve continuously.
 
-## License
-
-This site is copyright protected and all content is the property of Antonio Fiumanò. For details on the license and usage of content, please refer to the [License](link to the License section).
-
 Thank you for visiting and enjoy exploring my site!
